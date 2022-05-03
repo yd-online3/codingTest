@@ -339,8 +339,8 @@ for i in range(n):
     sum = 0  # 
     for j in list:
         if j == 'O':
-            score += 1  # 'O'가 연속되면 점수가 1점씩 커진다.
-            score += score  # sum_score = sum_score + score
+            score += 1  
+            score += score  
         else:
             score = 0
     print(score)
